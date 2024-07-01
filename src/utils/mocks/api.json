@@ -1,0 +1,118 @@
+{
+  "posts": [
+    {
+      "id": "bcb52e3d-cf37-4f7e-884d-68b0d6f07a64",
+      "author": {
+        "avatarUrl": "https://github.com/bernardopadilha.png",
+        "name": "Bernardo Padilha",
+        "role": "Desenvolvedor Front-end"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": "Fala calera"
+        },
+    
+        {
+          "type": "link",
+          "content": "jane.design/doctorcare"
+        }
+      ],
+      "createdAt": "2024-06-11T21:05:34.368Z"
+    }
+
+  ],
+  "comments": [
+    {
+      "id": "0f49d159-5ffd-4655-b5fa-679d2378fc20",
+      "postId": "bcb52e3d-cf37-4f7e-884d-68b0d6f07a64",
+      "author": {
+        "name": "Rafael Pereira",
+        "avatarUrl": "https://github.com/rafaelppereira.png"
+      },
+      "content": "Muito bom Bernardo! Parabéns!",
+      "likes": 0,
+      "subcomments": [
+        {
+          "id": "5889fd85-cfd3-438b-99a6-c2302a601ae3",
+          "author": {
+            "name": "Bernardo",
+            "avatarUrl": "https://github.com/bernardopadilha.png"
+          },
+          "content": "Muito obrigado Rafael",
+          "createdAt": "2024-06-12T04:30:07.416Z"
+        }
+      ],
+      "createdAt": "2024-06-12T04:30:07.416Z"
+    },
+    {
+      "id": "e02d19e1-8271-4c7b-a7f9-1b4dc1a205df",
+      "postId": "bcb52e3d-cf37-4f7e-884d-68b0d6f07a64",
+      "author": {
+        "name": "Rafael Pereira",
+        "avatarUrl": "https://github.com/rafaelppereira.png"
+      },
+      "content": "dadawd",
+      "likes": 0,
+      "subcomments": [],
+      "createdAt": "2024-06-12T04:50:23.015Z"
+    },
+    {
+      "id": "1cfc9930-b18d-4f52-9886-25da0cd85c21",
+      "postId": "bcb52e3d-cf37-4f7e-884d-68b0d6f07a64",
+      "author": {
+        "name": "Rafael Pereira",
+        "avatarUrl": "https://github.com/rafaelppereira.png"
+      },
+      "content": "Testandi",
+      "likes": 0,
+      "subcomments": [],
+      "createdAt": "2024-06-20T15:53:12.631Z"
+    }
+  ],
+  "news": [
+    {
+      "id": "e5790d70-198a-4c43-9f17-39dc42c0a576",
+      "title": "Nova biblioteca JavaScript promete melhorar performance de aplicações web",
+      "createdAt": "2024-06-11T21:05:34.368Z"
+    },
+    {
+      "id": "a6498ecb-fbe5-4895-8af6-6983730156c1",
+      "title": "Python 3.11 é lançado com novas funcionalidades para desenvolvedores",
+      "createdAt": "2024-06-11T21:06:34.368Z"
+    },
+    {
+      "id": "ce6c2551-844f-4967-a466-47a3032b0522",
+      "title": "GitHub lança ferramenta de IA para ajudar na revisão de código",
+      "createdAt": "2024-06-11T21:07:34.368Z"
+    },
+    {
+      "id": "1cdcd052-1c4f-4cbd-9f79-556dd0d44ad2",
+      "title": "Novo framework de CSS promete revolucionar design responsivo",
+      "createdAt": "2024-06-11T21:08:34.368Z"
+    },
+    {
+      "id": "f3ef6ea4-f7c5-4935-a513-c74ae2ca5e19",
+      "title": "Ferramenta de deploy contínuo ganha popularidade entre startups",
+      "createdAt": "2024-06-11T21:09:34.368Z"
+    },
+    {
+      "id": "17d95b85-015e-457c-8d1f-1118e7c03bdc",
+      "title": "Nova versão do Node.js traz melhorias significativas de performance",
+      "createdAt": "2024-06-11T21:10:34.368Z"
+    },
+    {
+      "id": "43d0c2d8-7b0d-4c54-a3a5-f3a6208b8a6d",
+      "title": "Empresa de cibersegurança lança curso gratuito de programação segura",
+      "createdAt": "2024-06-11T21:11:34.368Z"
+    }
+  ],
+  "user": {
+    "name": "Rafael Pereira",
+    "username": "rafaelppereira",
+    "thumbnailUrl": "/profile-banner.png",
+    "createdAt": "2024-06-11T21:05:34.368Z",
+    "email": "rafaelsantospereira03@gmail.com",
+    "avatarUrl": "https://github.com/rafaelppereira.png"
+  }
+}

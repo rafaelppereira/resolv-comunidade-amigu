@@ -68,9 +68,18 @@
 
   @layer base {
     * {
-      @apply border-border font-sans;
+      @apply border-border font-sans antialiased;
     }
-    body {
-      @apply bg-zinc-900 text-foreground;
+    
+    html, body {
+      @apply bg-zinc-950 font-sans text-foreground antialiased bg-background bg-center bg-cover bg-no-repeat bg-fixed;
     }
+  }
+
+  ::-webkit-scrollbar {
+    @apply size-1
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-brand-blue-700 rounded-full
   }

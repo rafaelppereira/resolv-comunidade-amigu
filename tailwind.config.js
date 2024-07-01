@@ -1,12 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ['class'],
-  content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-  ],
+  content: ['./src/**/*.{ts,tsx}'],
   prefix: '',
   theme: {
     container: {
@@ -17,14 +12,23 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: {
+        background: 'url(/background.png)',
+      },
       colors: {
-        body: '#131314',
-        post: '#19191C',
-        borders: '#252528',
-        search: '#26292D',
-        comment: '#A4A4AB',
-        link: '#5669AA',
-        amigu: '#2E3A62',
+        brand: {
+          blue: {
+            500: '#5669AA',
+            700: '#2E3A62',
+          },
+          zinc: {
+            500: '#565656',
+            700: '#252528',
+            800: '#26292D',
+            900: '#19191C',
+            950: '#131314',
+          },
+        },
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
@@ -78,7 +82,6 @@ module.exports = {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
-
       fontFamily: {
         sans: 'Plus Jakarta Sans',
       },
